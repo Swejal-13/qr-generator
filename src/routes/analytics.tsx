@@ -13,22 +13,6 @@ import {
 } from "lucide-react";
 
 export const Route = createFileRoute("/analytics")({
-  head: () => ({
-    meta: [
-      { title: "QR Analytics – QRForge" },
-      {
-        name: "description",
-        content:
-          "Learn how QR analytics work, the difference between static and dynamic QR codes, and what data marketers can track.",
-      },
-      { property: "og:title", content: "QR Analytics – QRForge" },
-      {
-        property: "og:description",
-        content:
-          "What QR analytics are, static vs dynamic QR codes, trackable data, and marketing use cases.",
-      },
-    ],
-  }),
   component: AnalyticsPage,
 });
 

@@ -5,22 +5,6 @@ import { QRGenerator } from "@/components/QRGenerator";
 import { Sparkles, Zap, Palette, Image as ImageIcon } from "lucide-react";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "QRForge – Advanced QR Code Generator" },
-      {
-        name: "description",
-        content:
-          "Design beautiful, scannable QR codes with custom colors, logos, and download as PNG, JPG or SVG.",
-      },
-      { property: "og:title", content: "QRForge – Advanced QR Code Generator" },
-      {
-        property: "og:description",
-        content:
-          "Design beautiful, scannable QR codes with custom colors, logos, and download as PNG, JPG or SVG.",
-      },
-    ],
-  }),
   component: Index,
 });
 

@@ -5,19 +5,11 @@ export function Footer() {
         <div>
           <div className="text-base font-semibold">QRForge</div>
           <div className="text-sm text-muted-foreground">
-  Created by{" "}
-  <span className="font-semibold text-foreground">
-    Swejal Patade
-  </span>
-  <br />
-  📧{" "}
-  <a
-    href="mailto:swejalpatade@gmail.com"
-    className="underline-offset-4 hover:underline"
-  >
-    swejalpatade@gmail.com
-  </a>
-</div>
+            Crafted by <span className="font-medium text-foreground">Swejal Patade</span> ·{" "}
+            <a href="mailto:swejalpatade@gmail.com" className="underline-offset-4 hover:underline">
+              swejalpatade@gmail.com
+            </a>
+          </div>
         </div>
         <a
           href="https://digitalheroesco.com"
