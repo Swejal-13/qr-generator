@@ -147,5 +147,5 @@ Requirements completed:
 
 Add your deployed Vercel URL here:
 
-qr-generator-one-livid.vercel.app
+[qr-generator-one-livid.vercel.app](https://qr-generator-one-livid.vercel.app)
 
